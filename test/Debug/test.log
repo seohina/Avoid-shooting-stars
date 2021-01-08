@@ -1,0 +1,65 @@
+﻿빌드 시작: 2020-07-07 오후 4:31:40
+     1>2 노드의 "C:\Users\최세현\Desktop\별똥별피하기게임\test\test.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\Avoidshootingstars.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Avoidshootingstars.cpp
+         Avoidshootingstars.cpp
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\structure.cpp(19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\structure.cpp(23): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 'fscanf' 선언을 참조하십시오.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\structure.cpp(24): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 'fscanf' 선언을 참조하십시오.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\avoidshootingstars.cpp(130): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\avoidshootingstars.cpp(165): warning C4244: '인수' : 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\avoidshootingstars.cpp(167): warning C4244: '초기화 중' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\avoidshootingstars.cpp(201): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\avoidshootingstars.cpp(223): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\avoidshootingstars.cpp(299): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\avoidshootingstars.cpp(300): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\avoidshootingstars.cpp(336): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\avoidshootingstars.cpp(338): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : 'scanf' 선언을 참조하십시오.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\avoidshootingstars.cpp(377): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\avoidshootingstars.cpp(379): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : 'scanf' 선언을 참조하십시오.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\avoidshootingstars.cpp(418): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\avoidshootingstars.cpp(420): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : 'scanf' 선언을 참조하십시오.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\avoidshootingstars.cpp(459): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\avoidshootingstars.cpp(461): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : 'scanf' 선언을 참조하십시오.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\avoidshootingstars.cpp(585): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\avoidshootingstars.cpp(599): warning C4129: ' ' : 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\avoidshootingstars.cpp(607): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\최세현\desktop\별똥별피하기게임\test\avoidshootingstars.cpp(166): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+       ManifestResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\최세현\Desktop\별똥별피하기게임\Debug\Avoidshootingstars.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Avoidshootingstars.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\최세현\Desktop\별똥별피하기게임\Debug\Avoidshootingstars.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\최세현\Desktop\별똥별피하기게임\Debug\Avoidshootingstars.lib" /MACHINE:X86 Debug\Avoidshootingstars.exe.embed.manifest.res
+         Debug\Avoidshootingstars.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Avoidshootingstars.exe.embed.manifest" /manifest Debug\Avoidshootingstars.exe.intermediate.manifest
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         test.vcxproj -> C:\Users\최세현\Desktop\별똥별피하기게임\Debug\Avoidshootingstars.exe
+       FinalizeBuildStatus:
+         "Debug\Avoidshootingstars.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\Avoidshootingstars.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\최세현\Desktop\별똥별피하기게임\test\test.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.15
